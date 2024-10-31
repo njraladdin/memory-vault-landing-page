@@ -328,7 +328,7 @@ function App() {
 
       <footer className="privacy-footer">
         <a 
-          href="/privacy-policy" 
+          href="/privacy-policy.html" 
           className="privacy-link"
           target="_blank"
           rel="noopener noreferrer"
