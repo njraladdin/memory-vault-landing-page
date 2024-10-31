@@ -1,6 +1,29 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
 
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDSNqghVPnaKRw3aTM78B3YD0ilU8i1J4w",
+  authDomain: "memory-vault-landing-page.firebaseapp.com",
+  projectId: "memory-vault-landing-page",
+  storageBucket: "memory-vault-landing-page.firebasestorage.app",
+  messagingSenderId: "279449878850",
+  appId: "1:279449878850:web:cc08d99cda71d0f7b7c8db",
+  measurementId: "G-LJ1Q1KSTDS"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 function App() {
   const [currentExampleIndex, setCurrentExampleIndex] = useState(0);
   const [messages, setMessages] = useState([{ type: 'assistant', text: 'How can I help you today?' }]);
