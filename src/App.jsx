@@ -223,7 +223,7 @@ function App() {
               </div>
             </div>
           </div>
-          <a href="https://chrome.google.com/webstore/detail/your-extension-id" className="cta-button">
+          <a href="https://chromewebstore.google.com/detail/memory-vault-infinite-lon/bdmhcmmcjkgnecahmeahfbjjelkbliea" className="cta-button">
           <svg height="26" width="26" xmlns="http://www.w3.org/2000/svg" viewBox="-1.67 -1.67 24.24 24.24" fill="#ffffff" stroke="#ffffff" strokeWidth="0.00020904000000000002">
             <g>
               <path fill="#f2f2f2" d="M10.656,5.333c-1.859,0-3.372,1.509-3.372,3.373c0,1.861,1.513,3.37,3.372,3.37 c1.863,0,3.37-1.509,3.37-3.37C14.026,6.842,12.52,5.333,10.656,5.333z"></path>
@@ -330,8 +330,6 @@ function App() {
         <a 
           href="/privacy-policy.html" 
           className="privacy-link"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           Privacy Policy
         </a>
